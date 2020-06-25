@@ -1,0 +1,114 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Group</title>
+    <style>
+        .wrap{
+            width:100%;
+            margin:0 auto;
+        }
+        #left{
+            width:50%;
+            background: #ccffff;
+            float: left;
+            height: 750px;
+        }
+        #right1{
+            width:50%;
+            background: #ffcccc;
+            height: 750px;
+            float: right;
+        }
+        #right2{
+            width:50%;
+            background: #ffffff;
+            height: 750px;
+            float: right;
+        }
+    </style>
+</head>
+
+<h1>
+    Face Detection Result 
+    <img height="60" src="{% static "images/logo.png" %}" />
+</h1>
+
+<body>
+    <div style="text-align:center" class="wrap">
+    <aside id="left">
+        <h2>Initial image</h2>
+        <img height="600" src="{{ raw_img.img.url }}" />
+
+        <br/>
+
+        <div id="pages" class="text-center" >
+                <nav>
+                    <ul style="list-style-type:none" class="pagination">
+                        <li class="step-links">
+                            {% if img_folder.has_previous %}
+                                <a class='active' href="?page=1">First img</a>
+                                <a class='active' href="?page={{ img_folder.previous_page_number }}">LAST</a>
+                            {% endif %}
+
+                            <span class="current">
+                                Page {{ img_folder.number }} of {{ img_folder.paginator.num_pages }}</span>
+
+                            {% if img_folder.has_next %}
+                                <a class='active' href="?page={{ img_folder.next_page_number }}">NEXT</a>
+                                <a class='active' href="?page={{ img_folder.paginator.num_pages }}">Final img</a>
+                            {% endif %}
+                        </li>
+                        <li>
+                             <form action="/show" method="post">
+                                 {% csrf_token %}
+                                 <input type="number" name="q">
+                                 <input type="submit" value="GO">
+                             </form>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </aside>
+
+    <aside id="right1">
+    <h2>Detection results</h2>
+    {% if has_face > 0 %}
+        <h3>Face bounding box</h3>
+        <img src='{{ face_img.img.url }}' />
+        <br/>
+        <br/>
+        <h3>Other detection and confidence</h3>
+        <table border="1" style="margin:auto">
+            <tr>
+                <th> </th>
+                <th>Result</th>
+                <th>Confidence</th>
+            </tr>
+            <tr>
+                <th>Face</th>
+                <td>-</td>
+                <td>{{ infer.confidence|floatformat:3 }}</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>{{ infer.age }}</td>
+                <td>{{ infer.age_confidence|floatformat:3 }}</td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>{{ infer.gender }}</td>
+                <td>{{ infer.gender_confidence|floatformat:3 }}</td>
+            </tr>
+        </table>
+    {% else %}
+        <p>Detect no face in this image.</p>
+    {% endif %}
+    </aside>
+
+   
+</div>
+</body>
+
+</html>
