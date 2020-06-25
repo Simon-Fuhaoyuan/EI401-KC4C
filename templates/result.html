@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>展示您的视频</title>
+</head>
+<body>
+  <p align="center">
+    <video width="960" height="720" controls>
+      <source src={{rlt}} type="video/mp4">
+    </video>
+  </p>
+
+  <form action="/result" method="post" >
+    {% csrf_token %}
+    <input type="submit" value="查看结果">
+  </form>
+
+  <p>{{name}}</p>
+
+
+</body>
+</html>
