@@ -1,0 +1,233 @@
+2020-06-11 22:14:48,736-INFO-app_manager.py:85 create app manager thread
+2020-06-11 22:14:48,738-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-11 22:43:58,628-INFO-app_manager.py:85 create app manager thread
+2020-06-11 22:43:58,629-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-11 22:45:37,763-INFO-app_manager.py:85 create app manager thread
+2020-06-11 22:45:37,764-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-11 22:45:45,581-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56190, fd:10
+2020-06-11 22:45:45,582-INFO-channel_manager.py:216 register channel: video
+2020-06-11 22:45:45,582-INFO-app_manager.py:115 register app: video
+2020-06-11 22:46:42,590-ERROR-presenter_socket_server.py:142 socket 10 receive msg head null
+2020-06-11 22:46:42,591-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-11 22:46:42,591-INFO-video_analysis_server.py:79 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56190)>}
+2020-06-11 22:46:42,591-INFO-channel_manager.py:227 unregister channel: video
+2020-06-11 22:46:42,592-INFO-app_manager.py:131 unregister app: video
+2020-06-11 23:11:36,684-INFO-app_manager.py:85 create app manager thread
+2020-06-11 23:11:36,685-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-16 10:07:48,360-INFO-app_manager.py:85 create app manager thread
+2020-06-16 10:07:48,361-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-16 10:07:56,614-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56196, fd:10
+2020-06-16 10:07:56,616-INFO-channel_manager.py:216 register channel: video
+2020-06-16 10:07:56,616-INFO-app_manager.py:115 register app: video
+2020-06-16 10:19:34,686-INFO-app_manager.py:85 create app manager thread
+2020-06-16 10:19:34,687-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-16 10:19:42,716-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56250, fd:10
+2020-06-16 10:19:42,718-INFO-channel_manager.py:216 register channel: video
+2020-06-16 10:19:42,718-INFO-app_manager.py:115 register app: video
+2020-06-16 10:20:39,731-ERROR-presenter_socket_server.py:142 socket 10 receive msg head null
+2020-06-16 10:20:39,732-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-16 10:20:39,732-INFO-video_analysis_server.py:79 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56250)>}
+2020-06-16 10:20:39,733-INFO-channel_manager.py:227 unregister channel: video
+2020-06-16 10:20:39,733-INFO-app_manager.py:131 unregister app: video
+2020-06-16 10:24:47,054-INFO-app_manager.py:85 create app manager thread
+2020-06-16 10:24:47,055-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-16 10:24:54,818-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56252, fd:10
+2020-06-16 10:24:54,819-INFO-channel_manager.py:216 register channel: video
+2020-06-16 10:24:54,819-INFO-app_manager.py:115 register app: video
+2020-06-16 10:25:50,345-ERROR-presenter_socket_server.py:142 socket 10 receive msg head null
+2020-06-16 10:25:50,346-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-16 10:25:50,346-INFO-video_analysis_server.py:79 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56252)>}
+2020-06-16 10:25:50,346-INFO-channel_manager.py:227 unregister channel: video
+2020-06-16 10:25:50,346-INFO-app_manager.py:131 unregister app: video
+2020-06-16 10:29:12,119-INFO-app_manager.py:85 create app manager thread
+2020-06-16 10:29:12,120-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-16 10:29:20,199-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56254, fd:10
+2020-06-16 10:29:20,200-INFO-channel_manager.py:216 register channel: video
+2020-06-16 10:29:20,201-INFO-app_manager.py:115 register app: video
+2020-06-16 10:30:15,723-ERROR-presenter_socket_server.py:142 socket 10 receive msg head null
+2020-06-16 10:30:15,724-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-16 10:30:15,725-INFO-video_analysis_server.py:79 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56254)>}
+2020-06-16 10:30:15,725-INFO-channel_manager.py:227 unregister channel: video
+2020-06-16 10:30:15,725-INFO-app_manager.py:131 unregister app: video
+2020-06-16 10:31:49,089-INFO-app_manager.py:85 create app manager thread
+2020-06-16 10:31:49,090-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-16 10:31:56,755-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56256, fd:10
+2020-06-16 10:31:56,773-INFO-channel_manager.py:216 register channel: video
+2020-06-16 10:31:56,773-INFO-app_manager.py:115 register app: video
+2020-06-16 10:32:52,275-ERROR-presenter_socket_server.py:142 socket 10 receive msg head null
+2020-06-16 10:32:52,276-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-16 10:32:52,279-INFO-video_analysis_server.py:79 clean fd:10, conns:{10: <socket.socket fd=10, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56256)>}
+2020-06-16 10:32:52,279-INFO-channel_manager.py:227 unregister channel: video
+2020-06-16 10:32:52,280-INFO-app_manager.py:131 unregister app: video
+2020-06-17 07:34:55,177-INFO-app_manager.py:85 create app manager thread
+2020-06-17 07:34:55,178-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-17 07:35:10,339-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56258, fd:12
+2020-06-17 07:35:10,341-INFO-channel_manager.py:216 register channel: video
+2020-06-17 07:35:10,341-INFO-app_manager.py:115 register app: video
+2020-06-17 07:36:05,845-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-17 07:36:05,845-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-17 07:36:05,846-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56258)>}
+2020-06-17 07:36:05,846-INFO-channel_manager.py:227 unregister channel: video
+2020-06-17 07:36:05,846-INFO-app_manager.py:131 unregister app: video
+2020-06-17 07:55:07,843-INFO-app_manager.py:85 create app manager thread
+2020-06-17 07:55:07,844-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-17 07:55:15,538-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56260, fd:12
+2020-06-17 07:55:15,539-INFO-channel_manager.py:216 register channel: video
+2020-06-17 07:55:15,540-INFO-app_manager.py:115 register app: video
+2020-06-17 07:56:12,536-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-17 07:56:12,536-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-17 07:56:12,536-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56260)>}
+2020-06-17 07:56:12,537-INFO-channel_manager.py:227 unregister channel: video
+2020-06-17 07:56:12,537-INFO-app_manager.py:131 unregister app: video
+2020-06-17 08:02:38,664-INFO-app_manager.py:85 create app manager thread
+2020-06-17 08:02:38,665-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-17 08:02:46,516-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56262, fd:12
+2020-06-17 08:02:46,518-INFO-channel_manager.py:216 register channel: video
+2020-06-17 08:02:46,518-INFO-app_manager.py:115 register app: video
+2020-06-17 08:03:55,517-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-17 08:03:55,518-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-17 08:03:55,518-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56262)>}
+2020-06-17 08:03:55,518-INFO-channel_manager.py:227 unregister channel: video
+2020-06-17 08:03:55,519-INFO-app_manager.py:131 unregister app: video
+2020-06-17 08:30:21,598-INFO-app_manager.py:85 create app manager thread
+2020-06-17 08:30:21,599-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-17 08:30:29,368-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56264, fd:12
+2020-06-17 08:30:29,370-INFO-channel_manager.py:216 register channel: video
+2020-06-17 08:30:29,371-INFO-app_manager.py:115 register app: video
+2020-06-17 08:31:24,879-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-17 08:31:24,879-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-17 08:31:24,880-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56264)>}
+2020-06-17 08:31:24,880-INFO-channel_manager.py:227 unregister channel: video
+2020-06-17 08:31:24,880-INFO-app_manager.py:131 unregister app: video
+2020-06-17 08:33:30,163-INFO-app_manager.py:85 create app manager thread
+2020-06-17 08:33:30,170-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-17 08:33:38,002-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56266, fd:12
+2020-06-17 08:33:38,004-INFO-channel_manager.py:216 register channel: video
+2020-06-17 08:33:38,004-INFO-app_manager.py:115 register app: video
+2020-06-17 08:34:50,018-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-17 08:34:50,019-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-17 08:34:50,019-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56266)>}
+2020-06-17 08:34:50,020-INFO-channel_manager.py:227 unregister channel: video
+2020-06-17 08:34:50,020-INFO-app_manager.py:131 unregister app: video
+2020-06-25 09:23:32,141-INFO-app_manager.py:85 create app manager thread
+2020-06-25 09:23:32,142-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-25 09:24:05,376-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56288, fd:14
+2020-06-25 09:24:05,377-INFO-channel_manager.py:216 register channel: video
+2020-06-25 09:24:05,379-INFO-app_manager.py:115 register app: video
+2020-06-25 09:25:17,384-ERROR-presenter_socket_server.py:142 socket 14 receive msg head null
+2020-06-25 09:25:17,384-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-25 09:25:17,384-INFO-video_analysis_server.py:79 clean fd:14, conns:{14: <socket.socket fd=14, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56288)>}
+2020-06-25 09:25:17,385-INFO-channel_manager.py:227 unregister channel: video
+2020-06-25 09:25:17,385-INFO-app_manager.py:131 unregister app: video
+2020-06-25 09:30:53,015-INFO-app_manager.py:85 create app manager thread
+2020-06-25 09:30:53,015-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-25 09:31:00,815-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56290, fd:14
+2020-06-25 09:31:00,817-INFO-channel_manager.py:216 register channel: video
+2020-06-25 09:31:00,817-INFO-app_manager.py:115 register app: video
+2020-06-25 09:31:48,815-ERROR-presenter_socket_server.py:142 socket 14 receive msg head null
+2020-06-25 09:31:48,816-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-25 09:31:48,816-INFO-video_analysis_server.py:79 clean fd:14, conns:{14: <socket.socket fd=14, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56290)>}
+2020-06-25 09:31:48,816-INFO-channel_manager.py:227 unregister channel: video
+2020-06-25 09:31:48,817-INFO-app_manager.py:131 unregister app: video
+2020-06-25 11:55:27,989-INFO-app_manager.py:85 create app manager thread
+2020-06-25 11:55:27,990-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-25 11:55:35,945-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56292, fd:14
+2020-06-25 11:55:35,946-INFO-channel_manager.py:216 register channel: video
+2020-06-25 11:55:35,947-INFO-app_manager.py:115 register app: video
+2020-06-25 11:56:23,948-ERROR-presenter_socket_server.py:142 socket 14 receive msg head null
+2020-06-25 11:56:23,949-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-25 11:56:23,949-INFO-video_analysis_server.py:79 clean fd:14, conns:{14: <socket.socket fd=14, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56292)>}
+2020-06-25 11:56:23,949-INFO-channel_manager.py:227 unregister channel: video
+2020-06-25 11:56:23,949-INFO-app_manager.py:131 unregister app: video
+2020-06-25 12:03:27,388-INFO-app_manager.py:85 create app manager thread
+2020-06-25 12:03:27,389-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-25 12:03:35,943-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56294, fd:15
+2020-06-25 12:03:35,944-INFO-channel_manager.py:216 register channel: video
+2020-06-25 12:03:35,945-INFO-app_manager.py:115 register app: video
+2020-06-25 12:04:47,925-ERROR-presenter_socket_server.py:142 socket 15 receive msg head null
+2020-06-25 12:04:47,926-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-25 12:04:47,926-INFO-video_analysis_server.py:79 clean fd:15, conns:{15: <socket.socket fd=15, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56294)>}
+2020-06-25 12:04:47,926-INFO-channel_manager.py:227 unregister channel: video
+2020-06-25 12:04:47,927-INFO-app_manager.py:131 unregister app: video
+2020-06-28 16:13:47,962-INFO-app_manager.py:85 create app manager thread
+2020-06-28 16:13:47,963-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-28 16:13:56,231-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56296, fd:12
+2020-06-28 16:13:56,232-INFO-channel_manager.py:216 register channel: video
+2020-06-28 16:13:56,232-INFO-app_manager.py:115 register app: video
+2020-06-28 16:14:45,729-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-28 16:14:45,730-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-28 16:14:45,730-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56296)>}
+2020-06-28 16:14:45,731-INFO-channel_manager.py:227 unregister channel: video
+2020-06-28 16:14:45,731-INFO-app_manager.py:131 unregister app: video
+2020-06-28 16:21:22,607-INFO-app_manager.py:85 create app manager thread
+2020-06-28 16:21:22,609-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-28 16:21:30,488-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56298, fd:12
+2020-06-28 16:21:30,489-INFO-channel_manager.py:216 register channel: video
+2020-06-28 16:21:30,489-INFO-app_manager.py:115 register app: video
+2020-06-28 16:22:19,991-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-28 16:22:19,992-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-28 16:22:19,992-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56298)>}
+2020-06-28 16:22:19,992-INFO-channel_manager.py:227 unregister channel: video
+2020-06-28 16:22:19,992-INFO-app_manager.py:131 unregister app: video
+2020-06-28 16:24:10,398-INFO-app_manager.py:85 create app manager thread
+2020-06-28 16:24:10,399-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-28 16:24:18,549-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56300, fd:12
+2020-06-28 16:24:18,550-INFO-channel_manager.py:216 register channel: video
+2020-06-28 16:24:18,551-INFO-app_manager.py:115 register app: video
+2020-06-28 16:25:13,961-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-28 16:25:13,962-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-28 16:25:13,963-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56300)>}
+2020-06-28 16:25:13,963-INFO-channel_manager.py:227 unregister channel: video
+2020-06-28 16:25:13,964-INFO-app_manager.py:131 unregister app: video
+2020-06-29 15:13:11,958-INFO-app_manager.py:85 create app manager thread
+2020-06-29 15:13:11,960-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-06-29 15:13:19,778-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56302, fd:12
+2020-06-29 15:13:19,780-INFO-channel_manager.py:216 register channel: video
+2020-06-29 15:13:19,780-INFO-app_manager.py:115 register app: video
+2020-06-29 15:14:09,283-ERROR-presenter_socket_server.py:142 socket 12 receive msg head null
+2020-06-29 15:14:09,284-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-06-29 15:14:09,285-INFO-video_analysis_server.py:79 clean fd:12, conns:{12: <socket.socket fd=12, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56302)>}
+2020-06-29 15:14:09,285-INFO-channel_manager.py:227 unregister channel: video
+2020-06-29 15:14:09,285-INFO-app_manager.py:131 unregister app: video
+2020-07-01 08:16:14,763-INFO-app_manager.py:85 create app manager thread
+2020-07-01 08:16:14,763-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-07-01 08:16:23,203-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56304, fd:14
+2020-07-01 08:16:23,205-INFO-channel_manager.py:216 register channel: video
+2020-07-01 08:16:23,207-INFO-app_manager.py:115 register app: video
+2020-07-01 08:17:12,701-ERROR-presenter_socket_server.py:142 socket 14 receive msg head null
+2020-07-01 08:17:12,702-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-07-01 08:17:12,702-INFO-video_analysis_server.py:79 clean fd:14, conns:{14: <socket.socket fd=14, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56304)>}
+2020-07-01 08:17:12,703-INFO-channel_manager.py:227 unregister channel: video
+2020-07-01 08:17:12,703-INFO-app_manager.py:131 unregister app: video
+2020-07-01 08:34:59,882-INFO-app_manager.py:85 create app manager thread
+2020-07-01 08:34:59,883-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-07-01 08:35:07,723-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56306, fd:15
+2020-07-01 08:35:07,724-INFO-channel_manager.py:216 register channel: video
+2020-07-01 08:35:07,725-INFO-app_manager.py:115 register app: video
+2020-07-01 08:35:32,299-INFO-app_manager.py:85 create app manager thread
+2020-07-01 08:35:32,301-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-07-01 08:35:33,397-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56310, fd:15
+2020-07-01 08:35:33,406-ERROR-video_analysis_server.py:403 app_id: video not exist
+2020-07-01 08:35:33,406-INFO-video_analysis_server.py:79 clean fd:15, conns:{15: <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56310)>}
+2020-07-01 08:35:34,871-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56312, fd:15
+2020-07-01 08:35:34,882-ERROR-video_analysis_server.py:225 app_id: video not exist
+2020-07-01 08:35:34,883-INFO-video_analysis_server.py:79 clean fd:15, conns:{15: <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56312)>}
+2020-07-01 08:35:36,464-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56314, fd:15
+2020-07-01 08:35:36,507-ERROR-video_analysis_server.py:225 app_id: video not exist
+2020-07-01 08:35:36,507-INFO-video_analysis_server.py:79 clean fd:15, conns:{15: <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56314)>}
+2020-07-01 08:35:37,946-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56316, fd:15
+2020-07-01 08:35:39,911-ERROR-video_analysis_server.py:225 app_id: video not exist
+2020-07-01 08:35:39,912-INFO-video_analysis_server.py:79 clean fd:15, conns:{15: <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56316)>}
+2020-07-01 08:35:40,975-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56318, fd:15
+2020-07-01 08:35:40,976-ERROR-video_analysis_server.py:168 App video is already exist.
+2020-07-01 08:35:40,976-INFO-video_analysis_server.py:79 clean fd:15, conns:{15: <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56318)>}
+2020-07-01 08:36:13,273-INFO-app_manager.py:85 create app manager thread
+2020-07-01 08:36:13,274-INFO-presenter_server.py:80 presenter server starting, type: video_analysis_person
+2020-07-01 08:36:21,462-INFO-presenter_socket_server.py:255 create new connection:client-ip:172.168.225.2, client-port:56320, fd:15
+2020-07-01 08:36:21,464-INFO-channel_manager.py:216 register channel: video
+2020-07-01 08:36:21,464-INFO-app_manager.py:115 register app: video
+2020-07-01 08:37:09,415-ERROR-presenter_socket_server.py:142 socket 15 receive msg head null
+2020-07-01 08:37:09,416-ERROR-presenter_socket_server.py:204 msg_total_len is None.
+2020-07-01 08:37:09,416-INFO-video_analysis_server.py:79 clean fd:15, conns:{15: <socket.socket fd=15, family=AddressFamily.AF_INET, type=2049, proto=0, laddr=('172.168.225.102', 7010), raddr=('172.168.225.2', 56320)>}
+2020-07-01 08:37:09,416-INFO-channel_manager.py:227 unregister channel: video
+2020-07-01 08:37:09,417-INFO-app_manager.py:131 unregister app: video
